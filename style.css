@@ -1,0 +1,161 @@
+/* ELEMENTS */
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: darksalmon;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h4 {
+    margin: 0;
+}
+
+/* SELECTORS */
+
+.call-to-action-box h2 {
+    margin: 0;
+}
+
+.call-to-action-box p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.card h3 {
+    color: rgba(105, 105, 105, 0.801);
+}
+
+.card img {
+    max-height: 190px;
+    height: auto;
+    width: 100%;
+}
+
+#content h1 {
+    color: darksalmon;
+    font-size: 36px;
+}
+
+.left_hero button {
+    background-color: white;
+    color: darksalmon;
+    border: brown;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+}
+
+.left_hero h1 {
+    font-size: 36px;
+}
+
+.left_hero p {
+    font-size: 18px;
+}
+
+.right_hero img {
+    width: 100%;
+}
+
+.right_side button {
+    background-color: white;
+    color: darksalmon;
+    border: brown;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+}
+
+.quote_section p {
+    font-size: 18px;
+}
+
+.quote_section h3 {
+    text-align: end;
+}
+
+/* CLASSES */
+
+.call-to-action-box {
+    background-color: rgba(105, 105, 105, 0.801);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px ;
+    width: 60%;
+    
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.left_hero {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.right_hero {
+    width: 50%;
+}
+
+/* IDS */
+
+#call-to-action {
+    color: white;
+    padding: 50px 20%;
+}
+
+#content {
+    background-color: white;
+    padding: 50px 20%;
+    text-align: center;
+}
+
+#hero {
+    color: white;
+    display: flex;
+    padding: 50px 20%;
+}
+
+#quote {
+    background-color: rgba(105, 105, 105, 0.801);
+    color: white;
+    padding: 50px 20%;
+    text-align: center;
+}
+
+/* COMPONENTS */
+
+header {
+    align-items: center;
+    background-color: rgba(105, 105, 105, 0.801);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+footer {
+    background-color: white;
+    color: darksalmon;
+    padding: 10px 0;
+    text-align: center;
+}
